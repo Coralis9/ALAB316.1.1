@@ -1,7 +1,6 @@
-import "styles.css";
 
 
-document.addEventListener('DOMContentLoaded'), ()=> {
+
 const mainEl = document.querySelector('main');
 mainEl.style.backgroundColor = 'var(--main-bg)';
 mainEl.innerHTML = '<h1>DOM Manipulation</h1>';
@@ -26,7 +25,7 @@ var menuLinks = [
     topMenuEl.appendChild(menuItem);
   });
 
-};
+
 
 
 
